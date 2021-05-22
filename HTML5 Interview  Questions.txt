@@ -1,0 +1,138 @@
+HTML5 Interview Questions 
+
+
+1. What is the need of mentioning <!DOCTYPE HTML> at the beginning of an HTML page?
+The <!DOCTYPE HTML> indicates the version of HTML which in this case is 5.
+
+2. How can we produce a horizontal line on a webpage?
+A horizontal line can be produced on a web page using the <hr> tag. 
+The other point to note about the hr tag is that it doesn’t have an end tag as most of the HTML tags do.
+
+
+3.Define Meta tags.
+Meta tags are the tags that provide more information to our web pages. Some of the tags that are examples for meta are:
+
+Link: Defines a relation between the web page and an external source.
+
+Style: Inserts styles (CSS) details to the web page.
+
+Title: Provides a title to the web page.
+
+
+4. What is the best way to group form elements?
+The <fieldset> tag can be used to group some of the form elements. 
+When the purpose is to provide some HTML elements as a group to the user 
+then, fieldset tag is the best one to use. 
+It takes another tag in it <legend> which provides a title to the grouped 
+elements.
+
+5. How is it possible to insert a copyright symbol in a web page?
+As there is no direct key to type and insert the copyright symbol in a web page, it has to be given by combining different characters. This can be done in multiple ways like:
+
+&copy.
+
+& #169.
+
+6. 17. Explain the two web storage in HTML5.
+In HTML 5 data storage can be done in two ways:
+
+Session Storage: The current session (i.e., a user who is browsing the website) details are stored. Once the user closes the browser, the storage is cleared.
+
+Local Storage: Data stored in local storage will not be cleared automatically or when the user closes the browser.
+
+7. Explain Graphics in HTML5.
+HTML5 has two types of providing graphics, SVG and Canvas. SVG is helpful when using devices like tablets, iPads etc. Whereas, Canvas is an area in the document or HTML page where graphics can be drawn.
+
+8. List out the new attributes provided in HTML5 for the form tag.
+HTML5 has introduced two new attributes for the form tag which are:
+
+autocomplete.
+
+non-validate.
+
+9. What is the usage of a novalidate attribute for the form tag that is introduced in HTML5?
+The form attribute novalidate is a Boolean type which takes true/false values. If disabled or made false, the form data is not validated when submitted.
+
+10. Why do we need to autocomplete attribute for the form tag?
+The autocomplete attribute is usually applied to text boxes with which the user can fill the textboxes with the previous values given to it.
+
+11. How can you hide  HTML source code?
+It is not possible to hide the HTML source code as the browser needs to understand the code.
+
+12. What is Cell Padding?
+Cell Padding refers to the space between the cell wall and cell border.
+
+13. How do we comment HTML code in an HTML page?
+HTML code can be commented using <!-- all the code written here will be commented -->
+
+14. Explain Application Cache.
+Application Cache is a mechanism in which the web applications can also run offline. One of the advantages of using the application cache is that the resources load faster.
+
+15. When do we use a meter tag?
+This tag is also known as a gauge and is used to define a scalar measurement which is in a known range.
+
+16. What is the usage of the cite tag?
+The cite tag is used to represent the title of a work (like a book, paper, poem etc). This tag is mostly used as an inline tag.
+
+17. How are Web Workers APIs used in HTML5?
+Using Web Workers APIs provide a way to run something in the background with which certain tasks can be performed without distracting the user interface.
+
+18. What is the difference between the font size units em and rem?
+By default, the font size in a browser is 16px and can be increased or decreased in the browser settings. 1em equals the font-size given in the browser. Whereas, the rem value depends on root element that is HTML tag.
+
+19. What are the minimum number of HTML tags are required to create an HTML page?
+A minimum of 3 tags (HTML, head, and body) are required to create a working HTML page.
+
+20. Question:Explain the various new tags introduced by HTML5 in Media Elements.
+Answer: HTML5 introduces the following five new tags in Media Elements:
+
+<audio>: Eliminates the need for additional plugins for playing audio content like audio streams and music.
+<embed>: Embeds an external application or content
+<source>: Adds multimedia resources like audio, picture, and video.
+<track>: Adds caption files or subtitles while the multimedia file is playing.
+<video>: Adds video content like embedded video content, movie clips, and videos.
+
+
+21. Question:Which tag is used for representing the result of a calculation? Explain its attributes.
+Answer: The <output> tag is used for representing the result of a calculation. It has three attributes:
+
+for - Represents the relationship among the elements used in the calculation and the result.
+form - Represents the form(s) the output element belongs to.
+name - Represents a name for the output element.
+
+22. How to create a nested webpage in HTML?
+The HTML iframe tag is used to display a nested webpage. 
+In other words, it represents a webpage within a webpage. The HTML <iframe> tag defines an inline frame.
+
+23. Which element provides the autocomplete feature in a textbox?
+
+Answer: In HTML5 <Datalist> element, provides the autocomplete feature in a textbox.
+
+25. What is the use of <figure> tag in HTML5?
+
+Answer: The figure tag is used to add an image in the document on a web page.
+
+26. What is the purpose of 'required' attribute in HTML5?
+Answer: HTML5 introduced a new attribute called required which would insist to
+have a value in an input control.
+
+
+27. Can you use SVG tags directly in HTML5 without any plugin?
+Answer: Yes! HTML5 allows embeding SVG directly using <svg>...</svg> tag.
+
+28. What is the script tag used for? 
+Answer: The <script> tag is used to include external JavaScript files to the HTML document. It can also be used to write JavaScript code within the HTML document itself. The code is put between the opening and closing <script> tags and the code is executed as the page is loaded.
+
+29. What are different attributes that can be used on an <audio> HTML5 element?
+Answer: 
+autoplay - plays the audio as soon as it is loaded. The audio element does not wait for the rest of the page to be loaded or finish loading.
+autobuffer - ensures that the audio will automatically begin buffering even if it's not set to automatically play.
+controls - allows the user to control audio playback, including volume, seeking, and pause/resume playback.
+loop - allows audio automatically seek back to the start after reaching at the end.
+preload - specifies that the audio will be loaded at page load, and ready to run. Ignored if autoplay is present.
+src - specifies the URL of the audio file to be played.
+
+30. Are the HTML element tags names case-sensitive?
+Answer:
+No. <section>, <Section> and <SECTION> are all syntactically correct but generally, as a good practice, all the elements are written with lowercase letters.
+
